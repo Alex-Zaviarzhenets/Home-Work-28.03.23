@@ -1,0 +1,7 @@
+// Создаем список с 3 пустыми пунктами в HTML документе. Изменяем текст пунктов.
+
+
+const txt = document.querySelectorAll("li.txt");
+for(let i = 0; i < txt.length; i++ ){
+txt[i].innerText = "new text";
+}
